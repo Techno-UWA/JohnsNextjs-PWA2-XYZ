@@ -1,0 +1,35 @@
+.container {
+  max-width: 90%;
+  padding:5%;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.backToHome {
+  margin: 3rem 0 0;
+}
+
+.divider {
+  background-color:var(--POOPRed);
+  border-color:var(--POOPRed);
+  height:4px;
+  width:99%;
+}
+
+.mainGrid {
+  display: grid;
+  grid-template-areas:
+  'welcome'
+  'summary'
+  'details'
+  ;
+  gap: 10px;
+  padding: 0px 10px 0px 10px;
+  border:10% solid black;
+  margin: 10px;
+}
